@@ -39,7 +39,7 @@ Instructions
 #. Change the ``classifiers`` keyword in ``setup.py``. This *will* require modification.
 
 #. *(Optional, but good practice)* Create a new virtual environment for your project With plain virtualenv_ cd into lupin::
-       virtualenv venv
+       virtualenv venv &&
        source venv/bin/activate
    Everytime you want to develop you need to activate the virtualenv by the above source command
    to deactivate just execute::
