@@ -40,19 +40,13 @@ Instructions
 
 #. *(Optional, but good practice)* Create a new virtual environment for your project:
 
-   With pyenv_ and pyenv-virtualenv_::
-
-       pyenv virtualenv my-project
-       pyenv local my-project
-
-   With virtualenvwrapper_::
-
-       mkvirtualenv my-project
-
    With plain virtualenv_::
-
-       virtualenv /path/to/my-project-venv
-       source /path/to/my-project-venv/bin/activate
+       cd into lupin
+       virtualenv venv
+       source venv/bin/activate
+   Everytime you want to develop you need to activate the virtualenv by the above source command
+   to deactivate just execute::
+       deactivate
 
    If you are new to virtual environments, please see the `Virtual Environment section`_ of Kenneth Reitz's Python Guide.
 
