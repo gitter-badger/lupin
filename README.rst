@@ -38,7 +38,7 @@ Instructions
 
 #. Change the ``classifiers`` keyword in ``setup.py``. This *will* require modification.
 
-#. *(Optional, but good practice)* Create a new virtual environment for your project:
+#. *(Optional, but good practice)* Create a new virtual environment for your project
 
    With plain virtualenv_::
        cd into lupin
